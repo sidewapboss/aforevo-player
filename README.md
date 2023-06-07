@@ -1,8 +1,9 @@
 # Getting Started with AforevoPlayer
+> This project was created for ease of access to video streaming content.
 
 ## Available Scripts
 
-### `npm install aforevo-player`
+### `$ npm install aforevo-player`
 
 ## Usage
 
