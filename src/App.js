@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
 import './App.css';
-import PlayerControls from './component/PlayerControls';
+import PlayerControls from './component/PlayerControls'
 import { makeStyles } from '@material-ui/core/styles'
 import ReactPlayer from 'react-player';
 import screenfull from 'screenfull'
