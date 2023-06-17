@@ -1,5 +1,4 @@
 import React, { useState, useRef } from 'react'
-import './App.css';
 import PlayerControls from './component/PlayerControls'
 import { makeStyles } from '@material-ui/core/styles'
 import ReactPlayer from 'react-player';
@@ -30,8 +29,6 @@ let count = 0;
 
 const AforevoPlayer = ({url, title}) => {
   const classes = useStyles();
-    const [ post, setPost ] = useState([]);
-    const [ loading, setLoading ] = useState(false)
     const [ isPlaying, setPlaying ] = useState(true)
     const [ muted, setMuted ] = useState(false)
     const [ volume, setVolume ] = useState(1)
